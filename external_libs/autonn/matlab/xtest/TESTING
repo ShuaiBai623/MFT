@@ -1,0 +1,3 @@
+
+To run the unit tests, call:
+vl_testnn('suiteDir', '<AutoNN directory>/matlab/xtest') ;

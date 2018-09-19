@@ -1,0 +1,34 @@
+Methods for class Layer:
+
+Layer                 fliplr                or                    uminus                
+abs                   flipud                permute               uplus                 
+accumarray            gather                plotPDF               vertcat               
+acos                  ge                    plus                  vl_nnaffinegrid       
+all                   getReceptiveFields    power                 vl_nnbilinearsampler  
+and                   gpuArray              rand                  vl_nnbnorm            
+any                   gt                    randi                 vl_nnconv             
+asin                  horzcat               randn                 vl_nnconvt            
+atan                  inf                   randperm              vl_nncrop             
+atan2                 inv                   rdivide               vl_nndropout          
+bsxfun                ipermute              repelem               vl_nnloss             
+cat                   ldivide               replace               vl_nnlstm             
+circshift             le                    repmat                vl_nnmaxout           
+colon                 log                   reshape               vl_nnnoffset          
+copy                  lt                    rot90                 vl_nnnormalize        
+cos                   max                   sequentialNames       vl_nnnormalizelp      
+ctranspose            mean                  shiftdim              vl_nnpdist            
+deepCopy              min                   sin                   vl_nnpool             
+display               minus                 size                  vl_nnrelu             
+displayCustom         mldivide              sort                  vl_nnsigmoid          
+end                   mrdivide              sqrt                  vl_nnsoftmax          
+eq                    mtimes                squeeze               vl_nnsoftmaxloss      
+evalOutputSize        nan                   subsref               vl_nnspnorm           
+exp                   ne                    sum                   vl_nnwsum             
+eye                   nnz                   tan                   xor                   
+find                  not                   times                 zeros                 
+flip                  ones                  transpose             
+
+Static methods:
+
+create                fromDagNN             setDiagnostics        
+fromCompiledNet       fromFunction          workspaceNames      
