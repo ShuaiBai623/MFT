@@ -1,6 +1,8 @@
 # MFT
 This repository includes matlab code for reproducing the results on VOT2018.
+
 [Multi-hierarchical Independent Correlation Filters for Visual Tracking](http://arxiv.org/abs/1811.10302)
+
 By Shuai Bai, Zhiqun He, Tingbing Xu, Zheng Zhu, Yuan Dong, Hongliang Bai
 ### Introduction
 
