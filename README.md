@@ -1,7 +1,7 @@
 # MFT
-Multi-solution Fusion for Visual Tracking(MFT)
-The paper is coming.
-
+This repository includes matlab code for reproducing the results on VOT2018.
+[Multi-hierarchical Independent Correlation Filters for Visual Tracking](http://arxiv.org/abs/1811.10302)
+By Shuai Bai, Zhiqun He, Tingbing Xu, Zheng Zhu, Yuan Dong, Hongliang Bai
 ### Introduction
 
 MFT tracker is based on correlation filtering algorithm. Firstly, we combine different multi-resolution features with continuous convolution operator~\cite{danelljan2017eco}. Secondly, we train multi-solution independently using different features and fuse multi-solutions optimally to predict target location, which drastically improves robustness. Respectively. At last, we reasonably choose different combinations of Res50, SE-Res50, Hog, CN features as our final feature to adapt to different tracking situation.
