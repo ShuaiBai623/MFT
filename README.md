@@ -30,7 +30,7 @@ cd ./feature_extraction/networks
 
 wget http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat
 
-wget http://www.robots.ox.ac.uk/\~albanie/models/se-nets/SE-ResNet-50-mcn.mat
+wget http://www.robots.ox.ac.uk/~albanie/models/se-nets/SE-ResNet-50-mcn.mat
 
 Setting export CUDA_CACHE_MAXSIZE=8000000000" in the ./~bash_profile so that gpuDevice(1) will take fewer time.
 
